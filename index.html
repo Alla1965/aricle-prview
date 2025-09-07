@@ -17,15 +17,15 @@
 
   <body>
     <section class="container">
-      <div class="furniture">
-        <div class="container-dresser">
+      <article class="furniture">
+        <figure class="container-dresser">
           <img
             class="dresser"
             src="./images/drawers.jpg"
             alt="furniture"
             width="264"
           />
-        </div>
+        </figure>
         <div class="notice">
           <h1>
             Shift the overall look and feel by adding these wonderful touches to
@@ -36,7 +36,7 @@
             felt slightly bare and uninviting. I've got some simple tips to help
             you make any room feel complete
           </p>
-          <div class="author">
+          <address class="author">
             <img
               class="photo"
               src="./images/avatar-michelle.jpg"
@@ -49,7 +49,11 @@
             </div>
 
             <div class="share-wrapper">
-              <button class="btn-share">
+              <button
+                type="button"
+                class="btn-share"
+                aria-label="Share this article"
+              >
                 <svg class="icon-share" width="16" height="16">
                   <use href="./images/icon-share.svg"></use>
                 </svg>
@@ -57,17 +61,29 @@
               <div class="social-links" id="socialLinks">
                 <span class="share-label">SHARE</span>
                 <div class="wrapper-social-icon">
-                  <a href="https://facebook.com" target="_blank">
+                  <a
+                    href="https://facebook.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <svg class="icon-social" width="20" height="20">
                       <use href="./images/icon-facebook.svg"></use>
                     </svg>
                   </a>
-                  <a href="https://pinterest.com" target="_blank">
+                  <a
+                    href="https://pinterest.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <svg class="icon-social" width="20" height="20">
                       <use href="./images/icon-pinterest.svg"></use>
                     </svg>
                   </a>
-                  <a href="https://twitter.com" target="_blank">
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <svg class="icon-social" width="20" height="20">
                       <use href="./images/icon-twitter.svg"></use>
                     </svg>
@@ -75,9 +91,9 @@
                 </div>
               </div>
             </div>
-          </div>
+          </address>
         </div>
-      </div>
+      </article>
     </section>
     <script src="./js/main.js"></script>
   </body>
